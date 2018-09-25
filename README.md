@@ -92,5 +92,9 @@ Now, run the tests again and you should be passing all of them.
 
 How does our above example work? Well, when your program is being executed, at the point at which the `#go` method is invoked, the compiler will first look in the class to which the instance of car that we are calling the method on belongs. If it finds a `#go` method there, it will execute *that method*. If it doesn't find such a method there, it will move on to look in the parent class that this class inherits from.
 
+## Does this need an update?
+
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-oo-inheritance-code-along/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-oo-inheritance-code-along/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p class='util--hide'>View <a href='https://learn.co/lessons/oo-inheritance-code-along'>Intro to Inheritance</a> on Learn.co and start learning to code for free.</p>
 <p data-visibility='hidden'>PHRG Code Along: An Intro to Inheritance</p>
